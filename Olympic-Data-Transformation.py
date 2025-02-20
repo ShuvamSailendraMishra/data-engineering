@@ -99,3 +99,7 @@ coaches.write.mode("overwrite").option("header", "true").csv("mnt/olympicdata/tr
 # COMMAND ----------
 
 avg_entries.write.mode("overwrite").option("header", "true").csv("mnt/olympicdata/transformed-data/entriesgender")
+
+# COMMAND ----------
+
+avg_entries.write.mode("overwrite").option("header", "true").csv("mnt/olympicdata/transformed-data/entriesgender")
